@@ -2,7 +2,7 @@
 echo -e "Updating System.."
 sudo apt-get update -y && sudo apt-get upgrade -y
 
-## Install Apache
+# Install Apache
 echo -e "Installing Apache2"
 sudo apt-get install apache2 apache2-doc apache2-utils libexpat1 ssl-cert -y
 
