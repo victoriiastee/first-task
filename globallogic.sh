@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Update packages and Upgrade system
 echo -e "Updating System.."
 sudo apt-get update -y && sudo apt-get upgrade -y
